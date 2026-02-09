@@ -1,3 +1,19 @@
+# Кэш Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Виртуальные окружения
+venv/
+env/
+
+# Файлы данных (если они очень большие)
+# data/*.csv
+
+# Системные файлы
+.DS_Store
+__pycache__/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
